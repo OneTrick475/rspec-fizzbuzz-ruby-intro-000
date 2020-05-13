@@ -3,11 +3,11 @@
 def fizzbuzz(i)
   if
     i % 3 == 0 && i % 5 == 0
-       "FizzBuzz"
+       return "FizzBuzz"
 elseif i % 3 == 0
-      "Fizz"
+      return "Fizz"
 elseif i % 5 == 0
-      "Buzz"
+      return "Buzz"
     else
 end
 end
