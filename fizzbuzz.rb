@@ -4,9 +4,9 @@ def fizzbuzz(i)
   if
     i % 3 == 0 && i % 5 == 0
        return "FizzBuzz"
-elseif i % 3 == 0
+ elsif i % 3 == 0
       return "Fizz"
-elseif i % 5 == 0
+ elsif i % 5 == 0
       return "Buzz"
     else
 end
